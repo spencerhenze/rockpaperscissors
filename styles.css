@@ -35,6 +35,11 @@ body{
     text-align: center;
     margin-top: 3rem;
 }
+
+.slight-shadow{
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+}
 .game-panel{
     text-align: center;
     margin-top: 3rem;
