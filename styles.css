@@ -1,0 +1,62 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+body{
+    color: white;
+}
+
+.background-image{
+    background-image: url(http://res.cloudinary.com/dvh7zccln/image/upload/v1501022397/SHP_0604_x1szrl.jpg);
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.game-title{
+    text-align: center;
+    margin-top: 3rem;
+    letter-spacing: 2px;
+}
+
+.anton{
+   font-family: 'Anton', sans-serif;
+}
+
+
+.game-subtitle{
+    text-align: center;
+}
+
+
+.center-text{
+    text-align: center;
+    margin-top: 3rem;
+}
+.game-panel{
+    text-align: center;
+    margin-top: 3rem;
+    color: black;
+}
+
+.scores{
+    display: inline-block;
+}
+
+.result-image{
+    font-size: 12rem;
+    text-shadow: 5px 5px 8px black;
+}
+
+.center-things{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-in-row{
+    display: flex;
+    align-items: center;
+}
