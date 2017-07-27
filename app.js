@@ -1,12 +1,12 @@
 
 var compScore = 0;
 var playerScore = 0;
+var compChoiceWord = '';
 
 
 function getComputerChoice() {
     //generate a random number between 0 and 1
     var compChoiceNum = Math.random();
-
 
     //get computer's word choice from the random number.
     if (compChoiceNum >= 0.0 && compChoiceNum <= 0.33) {
